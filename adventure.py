@@ -1,7 +1,6 @@
 import turtle
 import time
 
-#TARA CHAPMAN
 #Use of a list
 #Single loop
 #Turtle will eat apples off a tree and climb back down to display a message to the user
@@ -107,7 +106,6 @@ def EatApples():
     turtle.pencolor("black")
     turtle.write("Yum! I love apples!",align='right', font=('Arial' , '12', 'bold'))
 
-#CLAIRE MCCOWAN
 
 #turtle will climb up a pyramid
 #needs to have an if function
@@ -175,7 +173,6 @@ def TurtleClimb():
     turtle.write("Hurray! Made it to the top!", align="right", font=('Arial', '16', 'bold'))
 
     
-#reset to each partners work
 def reset():
     time.sleep(5)
     turtle.reset()
